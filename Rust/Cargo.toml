@@ -1,0 +1,11 @@
+[package]
+name = "go_over_there"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "=0.4.13"
+
+[profile.release]
+opt-level = 3
+lto = true
